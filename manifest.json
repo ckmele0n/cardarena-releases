@@ -1,0 +1,19 @@
+{
+  "game": "CardArena",
+  "latest": "0.1.0",
+  "notes": "Added: First public build: 3D team shooter with cards, bots and online play; In-game updater with short patch notes",
+  "full": {
+    "version": "0.1.0",
+    "name": "CardArena-0.1.0-win64.zip",
+    "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.0/CardArena-0.1.0-win64.zip",
+    "sha256": "9f502f0bc6730049a4883875e97b88387b6fea32ae83d76dbf6b0f6e8bed5fbc",
+    "size": 79536421,
+    "notes": {
+      "added": [
+        "First public build: 3D team shooter with cards, bots and online play",
+        "In-game updater with short patch notes"
+      ]
+    }
+  },
+  "patches": []
+}
