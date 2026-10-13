@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.1.6",
-  "notes": "Added: Show FPS option in Settings > Display | Fixed: much sharper wall, floor and ground textures on both maps (2K textures, detail layer, anisotropic filtering); when spectating a teammate you now see their health and weapon",
+  "latest": "0.1.7",
+  "notes": "Fixed: shadows no longer show visible steps at a distance (smoother cascades, bigger shadow map)",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -120,6 +120,19 @@
         "fixed": [
           "much sharper wall, floor and ground textures on both maps (2K textures, detail layer, anisotropic filtering)",
           "when spectating a teammate you now see their health and weapon"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.1.7",
+      "name": "patch-0.1.0-0.1.7.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.7/patch-0.1.0-0.1.7.pck",
+      "sha256": "944a1ccc68dfbf4aadb009ac37e9866c236c6de24815dc17aa3a9b9824d491cb",
+      "size": 8957528,
+      "notes": {
+        "fixed": [
+          "shadows no longer show visible steps at a distance (smoother cascades, bigger shadow map)"
         ]
       },
       "requires_full": "0.1.0"
