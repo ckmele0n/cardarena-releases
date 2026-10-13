@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.2.4",
-  "notes": "Changed: weapon cards are much rarer and at most one weapon card is offered at a time",
+  "latest": "0.2.5",
+  "notes": "Added: Your bonuses panel - all accumulated card effects on the card pick screen and while holding TAB",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -213,6 +213,19 @@
       "notes": {
         "changed": [
           "weapon cards are much rarer and at most one weapon card is offered at a time"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.2.5",
+      "name": "patch-0.1.0-0.2.5.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.2.5/patch-0.1.0-0.2.5.pck",
+      "sha256": "cf70184d3fead3a5cb85bcfbaafc0493bbb5f65e2a7818d9de6da509e776a663",
+      "size": 5309308,
+      "notes": {
+        "added": [
+          "Your bonuses panel - all accumulated card effects on the card pick screen and while holding TAB"
         ]
       },
       "requires_full": "0.1.0"
