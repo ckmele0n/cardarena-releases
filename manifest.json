@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.1.4",
-  "notes": "Added: Buy Menu mode - earn money, buy weapons in a 10 s buy phase (key B), bots buy too; sniper scope like CS 1.6 - right click cycles zoom, zoom more, scope off; NO SCOPE message when you kill with the sniper without scoping in",
+  "latest": "0.1.5",
+  "notes": "Fixed: update check now runs every 3 minutes and bypasses caches, so new versions show up by themselves; sharper snow and rock textures at a distance, smoother edges (anti-aliasing)",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -89,6 +89,20 @@
           "Buy Menu mode - earn money, buy weapons in a 10 s buy phase (key B), bots buy too",
           "sniper scope like CS 1.6 - right click cycles zoom, zoom more, scope off",
           "NO SCOPE message when you kill with the sniper without scoping in"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.1.5",
+      "name": "patch-0.1.0-0.1.5.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.5/patch-0.1.0-0.1.5.pck",
+      "sha256": "af9f0e31ed84d41f1029a25c8a66f58d82578a065f3421c22ac94f65f0d07a93",
+      "size": 15387956,
+      "notes": {
+        "fixed": [
+          "update check now runs every 3 minutes and bypasses caches, so new versions show up by themselves",
+          "sharper snow and rock textures at a distance, smoother edges (anti-aliasing)"
         ]
       },
       "requires_full": "0.1.0"
