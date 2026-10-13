@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.2.0",
-  "notes": "Added: Pause menu has an All settings button (general, crosshair, display); Graphics settings tab with presets (Low, Medium, High, Ultra), shadows, anti-aliasing, texture filtering and effects | Changed: New look for all menus, lobby, buy menu and HUD (Hazard Orange / Tactical); New fonts (Chakra Petch and Barlow) and square, flat panels; menus no longer run the GPU at full speed (60 fps cap in menus)",
+  "latest": "0.2.1",
+  "notes": "Added: new realistic soldier characters with team-colored helmet and vest, and real animations | Changed: weapons are now held in the hand of the character",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -152,6 +152,22 @@
           "New look for all menus, lobby, buy menu and HUD (Hazard Orange / Tactical)",
           "New fonts (Chakra Petch and Barlow) and square, flat panels",
           "menus no longer run the GPU at full speed (60 fps cap in menus)"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.2.1",
+      "name": "patch-0.1.0-0.2.1.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.2.1/patch-0.1.0-0.2.1.pck",
+      "sha256": "7544c4b8df98829a9ff8e6c109172852f9d9fe23e7cd0e991e947d785ea8bd73",
+      "size": 7249052,
+      "notes": {
+        "added": [
+          "new realistic soldier characters with team-colored helmet and vest, and real animations"
+        ],
+        "changed": [
+          "weapons are now held in the hand of the character"
         ]
       },
       "requires_full": "0.1.0"
