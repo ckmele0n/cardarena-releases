@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.1.5",
-  "notes": "Fixed: update check now runs every 3 minutes and bypasses caches, so new versions show up by themselves; sharper snow and rock textures at a distance, smoother edges (anti-aliasing)",
+  "latest": "0.1.6",
+  "notes": "Added: Show FPS option in Settings > Display | Fixed: much sharper wall, floor and ground textures on both maps (2K textures, detail layer, anisotropic filtering); when spectating a teammate you now see their health and weapon",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -103,6 +103,23 @@
         "fixed": [
           "update check now runs every 3 minutes and bypasses caches, so new versions show up by themselves",
           "sharper snow and rock textures at a distance, smoother edges (anti-aliasing)"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.1.6",
+      "name": "patch-0.1.0-0.1.6.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.6/patch-0.1.0-0.1.6.pck",
+      "sha256": "2cbde8e463dbe99922b4ec7fd7616015d317ea321479e221e244eccdc9ab0d83",
+      "size": 92896220,
+      "notes": {
+        "added": [
+          "Show FPS option in Settings > Display"
+        ],
+        "fixed": [
+          "much sharper wall, floor and ground textures on both maps (2K textures, detail layer, anisotropic filtering)",
+          "when spectating a teammate you now see their health and weapon"
         ]
       },
       "requires_full": "0.1.0"
