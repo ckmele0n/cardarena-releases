@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.2.3",
-  "notes": "Changed: card offers get weaker when your team is far ahead and better after a comeback win; weapon cards keep your magazine at 3, only bullet cards add rounds; +50% damage cards cost 1 bullet (magazine never below 1)",
+  "latest": "0.2.4",
+  "notes": "Changed: weapon cards are much rarer and at most one weapon card is offered at a time",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -200,6 +200,19 @@
           "card offers get weaker when your team is far ahead and better after a comeback win",
           "weapon cards keep your magazine at 3, only bullet cards add rounds",
           "+50% damage cards cost 1 bullet (magazine never below 1)"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.2.4",
+      "name": "patch-0.1.0-0.2.4.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.2.4/patch-0.1.0-0.2.4.pck",
+      "sha256": "e81ab11aea71cc1e45db01b7926e7e87a010894d54af9411fb0a62f3c878ac07",
+      "size": 5242768,
+      "notes": {
+        "changed": [
+          "weapon cards are much rarer and at most one weapon card is offered at a time"
         ]
       },
       "requires_full": "0.1.0"
