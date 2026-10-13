@@ -1,22 +1,160 @@
 {
   "game": "CardArena",
   "latest": "0.2.0",
-  "notes": "Added: Pause menu has an All settings button (general, crosshair, display) | Changed: New look for all menus, lobby, buy menu and HUD (Hazard Orange / Tactical); New fonts (Chakra Petch and Barlow) and square, flat panels",
+  "notes": "Added: Pause menu has an All settings button (general, crosshair, display); Graphics settings tab with presets (Low, Medium, High, Ultra), shadows, anti-aliasing, texture filtering and effects | Changed: New look for all menus, lobby, buy menu and HUD (Hazard Orange / Tactical); New fonts (Chakra Petch and Barlow) and square, flat panels; menus no longer run the GPU at full speed (60 fps cap in menus)",
   "full": {
-    "version": "0.2.0",
-    "name": "CardArena-0.2.0-win64.zip",
-    "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.2.0/CardArena-0.2.0-win64.zip",
-    "sha256": "5420d21922c13a322625c74c57232f3570b182d294cb5d5daefd2d7cc4cdd4bd",
-    "size": 131929142,
+    "version": "0.1.0",
+    "name": "CardArena-0.1.0-win64.zip",
+    "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.0/CardArena-0.1.0-win64.zip",
+    "sha256": "9f502f0bc6730049a4883875e97b88387b6fea32ae83d76dbf6b0f6e8bed5fbc",
+    "size": 79536421,
     "notes": {
       "added": [
-        "Pause menu has an All settings button (general, crosshair, display)"
-      ],
-      "changed": [
-        "New look for all menus, lobby, buy menu and HUD (Hazard Orange / Tactical)",
-        "New fonts (Chakra Petch and Barlow) and square, flat panels"
+        "First public build: 3D team shooter with cards, bots and online play",
+        "In-game updater with short patch notes"
       ]
     }
   },
-  "patches": []
+  "patches": [
+    {
+      "version": "0.1.1",
+      "name": "patch-0.1.0-0.1.1.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.1/patch-0.1.0-0.1.1.pck",
+      "sha256": "6e31e09e4665de3a4406712cfad867c2e7f63897628ad460f73737100826b157",
+      "size": 14553348,
+      "notes": {
+        "added": [
+          "Crouch on Ctrl",
+          "New map: Frost Yard (compact snowy arena)",
+          "Join accepts a host name, e.g. cardarena.tr1zoru.ro"
+        ],
+        "fixed": [
+          "Play vs Bots started a 3v3 when you chose 1v3",
+          "Settings window keeps the same size on every tab",
+          "No update server error before the first release"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.1.2",
+      "name": "patch-0.1.0-0.1.2.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.2/patch-0.1.0-0.1.2.pck",
+      "sha256": "5272bf1d82ed93e7a0b41957dda13da80f8d507328533e60b8031678930a187e",
+      "size": 4898092,
+      "notes": {
+        "added": [
+          "Join remembers your servers (recent list, no more 127.0.0.1 default)",
+          "Spectate a living teammate after you die",
+          "The game checks for updates by itself, no need to press Check"
+        ],
+        "fixed": [
+          "Changing a setting no longer shrinks a maximized window"
+        ],
+        "changed": [
+          "Homing is a subtle nudge toward enemies near your aim"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.1.3",
+      "name": "patch-0.1.0-0.1.3.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.3/patch-0.1.0-0.1.3.pck",
+      "sha256": "29ab72f4b74ddb2419d0edf0d181c88a03b87104903dcf4405d195678545ef10",
+      "size": 5126872,
+      "notes": {
+        "added": [
+          "Gun Game mode - every kill gives the next weapon, the last one is the sword",
+          "17 new weapons (pistol, SMG, shotgun, sniper, rocket and grenade launcher, minigun, railgun, sword and more)",
+          "bots know how to use every weapon"
+        ],
+        "fixed": [
+          "switching camera while spectating a teammate no longer needs a click"
+        ],
+        "changed": [
+          "Play vs Bots and the lobby keep the same size when you change the mode"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.1.4",
+      "name": "patch-0.1.0-0.1.4.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.4/patch-0.1.0-0.1.4.pck",
+      "sha256": "450c901faa5221457e92e5e4cfa65ccdf42ef5042657c0dc4209ebb99c50ef15",
+      "size": 5043944,
+      "notes": {
+        "added": [
+          "Buy Menu mode - earn money, buy weapons in a 10 s buy phase (key B), bots buy too",
+          "sniper scope like CS 1.6 - right click cycles zoom, zoom more, scope off",
+          "NO SCOPE message when you kill with the sniper without scoping in"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.1.5",
+      "name": "patch-0.1.0-0.1.5.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.5/patch-0.1.0-0.1.5.pck",
+      "sha256": "af9f0e31ed84d41f1029a25c8a66f58d82578a065f3421c22ac94f65f0d07a93",
+      "size": 15387956,
+      "notes": {
+        "fixed": [
+          "update check now runs every 3 minutes and bypasses caches, so new versions show up by themselves",
+          "sharper snow and rock textures at a distance, smoother edges (anti-aliasing)"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.1.6",
+      "name": "patch-0.1.0-0.1.6.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.6/patch-0.1.0-0.1.6.pck",
+      "sha256": "2cbde8e463dbe99922b4ec7fd7616015d317ea321479e221e244eccdc9ab0d83",
+      "size": 92896220,
+      "notes": {
+        "added": [
+          "Show FPS option in Settings > Display"
+        ],
+        "fixed": [
+          "much sharper wall, floor and ground textures on both maps (2K textures, detail layer, anisotropic filtering)",
+          "when spectating a teammate you now see their health and weapon"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.1.7",
+      "name": "patch-0.1.0-0.1.7.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.7/patch-0.1.0-0.1.7.pck",
+      "sha256": "944a1ccc68dfbf4aadb009ac37e9866c236c6de24815dc17aa3a9b9824d491cb",
+      "size": 8957528,
+      "notes": {
+        "fixed": [
+          "shadows no longer show visible steps at a distance (smoother cascades, bigger shadow map)"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.2.0",
+      "name": "patch-0.1.0-0.2.0.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.2.0/patch-0.1.0-0.2.0.pck",
+      "sha256": "29cfc57b4650c3be06a478340eeb5135f6e186899966b2905ae778f4347dbdd9",
+      "size": 5149320,
+      "notes": {
+        "added": [
+          "Pause menu has an All settings button (general, crosshair, display)",
+          "Graphics settings tab with presets (Low, Medium, High, Ultra), shadows, anti-aliasing, texture filtering and effects"
+        ],
+        "changed": [
+          "New look for all menus, lobby, buy menu and HUD (Hazard Orange / Tactical)",
+          "New fonts (Chakra Petch and Barlow) and square, flat panels",
+          "menus no longer run the GPU at full speed (60 fps cap in menus)"
+        ]
+      },
+      "requires_full": "0.1.0"
+    }
+  ]
 }
