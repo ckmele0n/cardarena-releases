@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.1.1",
-  "notes": "Added: Crouch on Ctrl; New map: Frost Yard (compact snowy arena); Join accepts a host name, e.g. cardarena.tr1zoru.ro | Fixed: Play vs Bots started a 3v3 when you chose 1v3; Settings window keeps the same size on every tab; No update server error before the first release",
+  "latest": "0.1.2",
+  "notes": "Added: Join remembers your servers (recent list, no more 127.0.0.1 default); Spectate a living teammate after you die; The game checks for updates by itself, no need to press Check | Fixed: Changing a setting no longer shrinks a maximized window | Changed: Homing is a subtle nudge toward enemies near your aim",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -32,6 +32,27 @@
           "Play vs Bots started a 3v3 when you chose 1v3",
           "Settings window keeps the same size on every tab",
           "No update server error before the first release"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.1.2",
+      "name": "patch-0.1.0-0.1.2.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.1.2/patch-0.1.0-0.1.2.pck",
+      "sha256": "5272bf1d82ed93e7a0b41957dda13da80f8d507328533e60b8031678930a187e",
+      "size": 4898092,
+      "notes": {
+        "added": [
+          "Join remembers your servers (recent list, no more 127.0.0.1 default)",
+          "Spectate a living teammate after you die",
+          "The game checks for updates by itself, no need to press Check"
+        ],
+        "fixed": [
+          "Changing a setting no longer shrinks a maximized window"
+        ],
+        "changed": [
+          "Homing is a subtle nudge toward enemies near your aim"
         ]
       },
       "requires_full": "0.1.0"
