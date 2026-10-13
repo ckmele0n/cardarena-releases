@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.2.2",
-  "notes": "Added: weapon cards - pick any of the 17 weapons as a card in Cards mode | Fixed: bots no longer get stuck inside the middle house on Frost Yard (they now follow a navigation mesh); muzzle flash of other players is no longer visible through walls",
+  "latest": "0.2.3",
+  "notes": "Changed: card offers get weaker when your team is far ahead and better after a comeback win; weapon cards keep your magazine at 3, only bullet cards add rounds; +50% damage cards cost 1 bullet (magazine never below 1)",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -185,6 +185,21 @@
         "fixed": [
           "bots no longer get stuck inside the middle house on Frost Yard (they now follow a navigation mesh)",
           "muzzle flash of other players is no longer visible through walls"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.2.3",
+      "name": "patch-0.1.0-0.2.3.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.2.3/patch-0.1.0-0.2.3.pck",
+      "sha256": "2931b64c71f35f6429fe3f056ead2500f25c8224d1b725c3bea01cbcb0527155",
+      "size": 5291556,
+      "notes": {
+        "changed": [
+          "card offers get weaker when your team is far ahead and better after a comeback win",
+          "weapon cards keep your magazine at 3, only bullet cards add rounds",
+          "+50% damage cards cost 1 bullet (magazine never below 1)"
         ]
       },
       "requires_full": "0.1.0"
