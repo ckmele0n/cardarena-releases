@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.2.1",
-  "notes": "Added: new realistic soldier characters with team-colored helmet and vest, and real animations | Changed: weapons are now held in the hand of the character",
+  "latest": "0.2.2",
+  "notes": "Added: weapon cards - pick any of the 17 weapons as a card in Cards mode | Fixed: bots no longer get stuck inside the middle house on Frost Yard (they now follow a navigation mesh); muzzle flash of other players is no longer visible through walls",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -168,6 +168,23 @@
         ],
         "changed": [
           "weapons are now held in the hand of the character"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.2.2",
+      "name": "patch-0.1.0-0.2.2.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.2.2/patch-0.1.0-0.2.2.pck",
+      "sha256": "b0a4c01757fdd7076a430cc64c5074520b6392fdfda4e5b1bb3cd9c2995c1e4e",
+      "size": 5364372,
+      "notes": {
+        "added": [
+          "weapon cards - pick any of the 17 weapons as a card in Cards mode"
+        ],
+        "fixed": [
+          "bots no longer get stuck inside the middle house on Frost Yard (they now follow a navigation mesh)",
+          "muzzle flash of other players is no longer visible through walls"
         ]
       },
       "requires_full": "0.1.0"
