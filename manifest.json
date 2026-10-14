@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.2.5",
-  "notes": "Added: Your bonuses panel - all accumulated card effects on the card pick screen and while holding TAB",
+  "latest": "0.2.6",
+  "notes": "Added: distinct sounds for every weapon, reloads, impacts, hit marker, kills, round stingers and footsteps; bullet impacts and sparks on walls, camera recoil, explosion shake, damage direction indicator, low-health vignette | Changed: soldiers hold rifles with two hands, lean with their aim, recoil when firing; better helmet and vest; bots avoid each other, jump on crates, take cover when hurt, hold or push by weapon and react to being shot",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -226,6 +226,24 @@
       "notes": {
         "added": [
           "Your bonuses panel - all accumulated card effects on the card pick screen and while holding TAB"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.2.6",
+      "name": "patch-0.1.0-0.2.6.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.2.6/patch-0.1.0-0.2.6.pck",
+      "sha256": "d27d4305a4f61d9c7bbcdd21a2f47589dc30ba10d13921f1877f4aa8defe3fb9",
+      "size": 5830164,
+      "notes": {
+        "added": [
+          "distinct sounds for every weapon, reloads, impacts, hit marker, kills, round stingers and footsteps",
+          "bullet impacts and sparks on walls, camera recoil, explosion shake, damage direction indicator, low-health vignette"
+        ],
+        "changed": [
+          "soldiers hold rifles with two hands, lean with their aim, recoil when firing; better helmet and vest",
+          "bots avoid each other, jump on crates, take cover when hurt, hold or push by weapon and react to being shot"
         ]
       },
       "requires_full": "0.1.0"
