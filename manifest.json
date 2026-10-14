@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.2.6",
-  "notes": "Added: distinct sounds for every weapon, reloads, impacts, hit marker, kills, round stingers and footsteps; bullet impacts and sparks on walls, camera recoil, explosion shake, damage direction indicator, low-health vignette | Changed: soldiers hold rifles with two hands, lean with their aim, recoil when firing; better helmet and vest; bots avoid each other, jump on crates, take cover when hurt, hold or push by weapon and react to being shot",
+  "latest": "0.2.7",
+  "notes": "Fixed: other soldiers no longer stretch and grow over the course of a match",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -244,6 +244,19 @@
         "changed": [
           "soldiers hold rifles with two hands, lean with their aim, recoil when firing; better helmet and vest",
           "bots avoid each other, jump on crates, take cover when hurt, hold or push by weapon and react to being shot"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.2.7",
+      "name": "patch-0.1.0-0.2.7.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.2.7/patch-0.1.0-0.2.7.pck",
+      "sha256": "f577f303f1a62d13489e407829b1e1c8366e2ec75f90463ee178ac64acdec5ca",
+      "size": 91388,
+      "notes": {
+        "fixed": [
+          "other soldiers no longer stretch and grow over the course of a match"
         ]
       },
       "requires_full": "0.1.0"
