@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.2.7",
-  "notes": "Fixed: other soldiers no longer stretch and grow over the course of a match",
+  "latest": "0.2.8",
+  "notes": "Added: 4 new maps - Aim Arena, Dune Run (dust2-style), Old Town and Cargo Docks; climb onto crates with jump + crouch, with a hint when a ledge is climbable; rocket jumps - explosions push players; scoreboard on TAB in every mode and match stats with MVP on the end screen; Controls settings - rebind keys, field of view, scoped sensitivity, invert Y, toggle crouch; card pick timer (15 s, random card if time runs out) and Legendary cards | Fixed: better aim online - the server rewinds players for sniper, railgun and laser shots | Changed: losing team now picks cards too, with weaker offers",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -257,6 +257,30 @@
       "notes": {
         "fixed": [
           "other soldiers no longer stretch and grow over the course of a match"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.2.8",
+      "name": "patch-0.1.0-0.2.8.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.2.8/patch-0.1.0-0.2.8.pck",
+      "sha256": "4421aff637ec9d54dc623e4c77906b4140795cfb7276faa8d16431a9161947b6",
+      "size": 12366136,
+      "notes": {
+        "added": [
+          "4 new maps - Aim Arena, Dune Run (dust2-style), Old Town and Cargo Docks",
+          "climb onto crates with jump + crouch, with a hint when a ledge is climbable",
+          "rocket jumps - explosions push players",
+          "scoreboard on TAB in every mode and match stats with MVP on the end screen",
+          "Controls settings - rebind keys, field of view, scoped sensitivity, invert Y, toggle crouch",
+          "card pick timer (15 s, random card if time runs out) and Legendary cards"
+        ],
+        "fixed": [
+          "better aim online - the server rewinds players for sniper, railgun and laser shots"
+        ],
+        "changed": [
+          "losing team now picks cards too, with weaker offers"
         ]
       },
       "requires_full": "0.1.0"
