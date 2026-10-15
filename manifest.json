@@ -1,7 +1,7 @@
 {
   "game": "CardArena",
-  "latest": "0.2.8",
-  "notes": "Added: 4 new maps - Aim Arena, Dune Run (dust2-style), Old Town and Cargo Docks; climb onto crates with jump + crouch, with a hint when a ledge is climbable; rocket jumps - explosions push players; scoreboard on TAB in every mode and match stats with MVP on the end screen; Controls settings - rebind keys, field of view, scoped sensitivity, invert Y, toggle crouch; card pick timer (15 s, random card if time runs out) and Legendary cards | Fixed: better aim online - the server rewinds players for sniper, railgun and laser shots | Changed: losing team now picks cards too, with weaker offers",
+  "latest": "0.3.0",
+  "notes": "Added: online Rooms - browse public rooms, create public or private rooms with a password or PIN; team chat (T), all chat (Y), quick radio (Z) and map pings (G); minimap radar, colour-blind team colours, and a map vote or rematch after every match; spawn protection for 2.5 s after every spawn, in all modes | Fixed: bots no longer jump constantly and only hop over real ledges; a bot added in the lobby is now visible to everyone right away | Changed: Dune Run rebuilt with a real dust2-style layout (long, short, mid, tunnels)",
   "full": {
     "version": "0.1.0",
     "name": "CardArena-0.1.0-win64.zip",
@@ -281,6 +281,29 @@
         ],
         "changed": [
           "losing team now picks cards too, with weaker offers"
+        ]
+      },
+      "requires_full": "0.1.0"
+    },
+    {
+      "version": "0.3.0",
+      "name": "patch-0.1.0-0.3.0.pck",
+      "url": "https://github.com/ckmele0n/cardarena-releases/releases/download/v0.3.0/patch-0.1.0-0.3.0.pck",
+      "sha256": "b5525a758b590e01105ca617e8bf3dee7cca136f4fd8f616da054aec248721ea",
+      "size": 7436744,
+      "notes": {
+        "added": [
+          "online Rooms - browse public rooms, create public or private rooms with a password or PIN",
+          "team chat (T), all chat (Y), quick radio (Z) and map pings (G)",
+          "minimap radar, colour-blind team colours, and a map vote or rematch after every match",
+          "spawn protection for 2.5 s after every spawn, in all modes"
+        ],
+        "fixed": [
+          "bots no longer jump constantly and only hop over real ledges",
+          "a bot added in the lobby is now visible to everyone right away"
+        ],
+        "changed": [
+          "Dune Run rebuilt with a real dust2-style layout (long, short, mid, tunnels)"
         ]
       },
       "requires_full": "0.1.0"
